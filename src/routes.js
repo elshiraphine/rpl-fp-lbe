@@ -4,7 +4,7 @@ import { BrowserRouter as Router,Route,Switch,Redirect } from 'react-router-dom'
 import Alert from './pages/alert'
 import Learn from './pages/learn'
 
-import Header from './components/header'
+import Header from '../src/component/header'
 
 const Routes=()=>{
     return(
