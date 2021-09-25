@@ -1,0 +1,43 @@
+.navpanel{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    width: 80%;
+    height: 80%;
+}
+
+.navlinks{
+    list-style: none;
+}
+
+.navlinks li{
+    display: inline-block;
+    padding: 0 100px;
+    font-size: 100px;
+}
+
+.navlinks li a:hover{
+    color:#ff7f2a;
+}
+
+li, a{
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.height-prop{
+    height: 200px;
+}
+
+img{
+    height: 100%;
+}
